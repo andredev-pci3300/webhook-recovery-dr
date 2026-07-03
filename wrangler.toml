@@ -1,0 +1,13 @@
+name = "webhook-recovery-dr"
+main = "src/index.ts"
+compatibility_date = "2026-07-03"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[[kv_namespaces]]
+binding = "WEBHOOK_STATE"
+id = "replace-with-production-kv-id"
+preview_id = "replace-with-preview-kv-id"

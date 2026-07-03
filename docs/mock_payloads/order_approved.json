@@ -1,0 +1,27 @@
+{
+  "webhook_event_type": "compra_aprovada",
+  "order_id": "fc96cec5-1ff1-49b3-aa22-0e131f353b62",
+  "token": "replace-with-kiwify-webhook-token",
+  "created_at": "2026-07-03T12:05:00.000Z",
+  "approved_date": "2026-07-03T12:05:00.000Z",
+  "status": "paid",
+  "payment_method": "pix",
+  "product": {
+    "id": "aaa86f40-d7ae-11ed-acc6-e1c45591a30e",
+    "name": "Produto X"
+  },
+  "customer": {
+    "id": "b17dd04e-5acc-41ae-a4b2-cba0d2436406",
+    "name": "Cliente Teste",
+    "email": "cliente@example.com",
+    "cpf": "99999999999",
+    "mobile": "+5511999999999",
+    "instagram": null,
+    "country": "BR"
+  },
+  "payment": {
+    "charge_amount": 1000,
+    "charge_currency": "BRL",
+    "net_amount": 885
+  }
+}

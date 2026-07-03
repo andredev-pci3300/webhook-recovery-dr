@@ -1,0 +1,23 @@
+{
+  "name": "webhook-recovery-dr",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "audit": "pnpm audit --audit-level=high"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.3.0",
+    "@noble/hashes": "^1.8.0",
+    "hono": "^4.8.4",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260703.1",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.24.3"
+  }
+}

@@ -1,0 +1,6 @@
+KIWIFY_WEBHOOK_TOKEN=replace-with-kiwify-webhook-token
+KIWIFY_WEBHOOK_PUBLIC_KEY_PEM=
+ACTIVE_CAMPAIGN_BASE_URL=https://your-account.api-us1.com
+ACTIVE_CAMPAIGN_API_KEY=replace-with-activecampaign-api-key
+ACTIVE_CAMPAIGN_PIX_FIELD_ID=1
+ACTIVE_CAMPAIGN_BILLET_FIELD_ID=2
